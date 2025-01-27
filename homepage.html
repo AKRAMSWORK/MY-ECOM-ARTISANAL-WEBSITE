@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOMADS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="homepage.html">NOMADS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="homepage.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catalogue.html">Catalogue produits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html"><i class='bx bx-user'></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html"><i class='bx bx-cart'></i></a>
+                </li>
+                
+                <li class="nav-item">
+                    <form class="d-flex" action="/search" method="get">
+                        <input class="form-control me-2" type="search" placeholder="Rechercher..." aria-label="Search" name="query">
+                        <button class="btn btn-outline-dark" type="submit"><i class='bx bx-search' ></i></button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  <div class="hero-section">
+    <div class="overlay-content">
+      <h1 class="display-4 fw-bold">Bienvenue Sur Notre site!</h1>
+      <p class="lead">Profitez jusqu'à 40% de réduction sur vos produits préférés !</p>
+      <a href="SACCUIR.html" style="background-color: rgb(78, 64, 61);color: white;" class="btn btn-lg">Voir les produits</a>
+    </div>
+  </div>
+
+<!--produits vendu-->
+
+ <div id="produitsvendus">
+  <h2 style="text-align: center; margin-top: 20px;">LES PRODUITS LES PLUS VENDUS</h2>
+  <div class="container my-5">
+    <div class="row row-col-sm-1 row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+      <div class="col">
+        <div class="card">
+         <a href="lavabot.html"><img src="sink.jpg" class="card-img-top" alt="Product 1"></a> 
+          <div class="card-body">
+            <h5 class="card-title">LAVABOT(TADELAKT)</h5>
+            <p class="card-text">Ce lavabo en poterie marocain est une pièce artisanale en céramique, avec des motifs vibrants qui ajoutent une touche élégante et unique à votre espace</p>
+            <h6>700 MAD</h6>
+            <a href="#" style="background-color: rgb(78, 64, 61); color: white;" class="btn ml-5">Ajouter au panier</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col">
+        <div class="card">
+         <a href="pouf.html"><img src="cuir10.JPG" class="card-img-top" alt="Product 2"></a> 
+          <div class="card-body">
+            <h5 class="card-title">POUF CUIRE NOIRE</h5>
+            <p class="card-text">Pouf noir en cuir marocain, une pièce artisanale élégante, utilisée comme siège ou repose-pieds, avec des coutures fines et des couleurs vibrantes</p>
+            <h6>600 MAD</h6>
+              <a href="#" style="background-color: rgb(78, 64, 61); color: white;" class="btn ml-5">Ajouter au panier</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col">
+        <div class="card">
+         <a href="lampcu.html"><img src="cuivre1.jpg" class="card-img-top" alt="Product 3"></a> 
+          <div class="card-body">
+            <h5 class="card-title">LAMP EN CUIVRE</h5>
+            <p class="card-text">Le tapis(Beni Ouarain) tapis marocain tissé à la main, caractérisé par ses motifs géométriques simples, apportant élégance à votre intérieur.</p>
+            <h6>1000MAD</h6>
+            <a href="#" style="background-color: rgb(78, 64, 61); color: white;" class="btn ml-5">Ajouter au panier</a>
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="col">
+        <div class="card">
+         <a href="SACCUIR.html"><img src="cuir9.jpg" class="card-img-top" alt="Product 4"></a> 
+          <div class="card-body">
+            <h5 class="card-title">SAC À DOS(CUIR)</h5>
+            <p class="card-text">Ce sac en cuir est un accessoire élégant et durable,Son design intemporel allie style, praticité et confort, parfait pour compléter toutes vos tenues.</p>
+            <h6>400MAD</h6>
+            <a href="#" style="background-color: rgb(78, 64, 61); color: white;" class="btn ml-5">Ajouter au panier</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+<hr>
+ <div class="nouvsection">
+  <a href="catalogue.html" class="nouveaute">NOUVEAUTÈS</a>
+</div>
+<hr>
+<H2 style="text-align: center; ">LES CATÉGORIES</H2>
+<hr>
+<div class="categorie">
+  <a href="CUIR.html" class="CUIR">CUIR</a>  
+  <a href="POTRIE.html" class="POTERIE">POTERIE</a>
+  <a href="CUIVRE.HTML" class="CUIVRE">CUIVRE</a>
+</div>
+<hr>
+<!---avis clients-->
+<section class="reviews-section py-5"></section>
+  <div class="container">
+      <h2 class="text-center mb-5">Avis Clients</h2>
+      <div class="row">
+         
+          <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                  <div class="card-body">
+                      <img class="image"  src="akram.jpg" class="rounded-circle mb-3" alt="Customer 1">
+                      <h5 class="card-title">Akram chekkouri</h5>
+                      <p class="card-text">"Une expérience incroyable! Les produits sont de très bonne qualité et le service est impeccable. Je recommande vivement!"</p>
+                  </div>
+              </div>
+          </div>
+
+        
+          <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                  <div class="card-body">
+                      <img class="image"  src="anas.jpg" class="rounded-circle mb-3" alt="Customer 2">
+                      <h5 class="card-title">Anas bendouzane</h5>
+                      <p class="card-text">"J'ai adoré mon expérience d'achat. Le site est facile à utiliser et les produits sont authentiques. Bravo pour votre travail!"</p>
+                  </div>
+              </div>
+          </div>
+
+         
+          <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                  <div class="card-body">
+                      <img class="image" src="hele.jpg" class="rounded-circle mb-3" alt="Customer 3">
+                      <h5 class="card-title">Salima Bennani</h5>
+                      <p class="card-text">"Excellent service et produits magnifiques! Je suis vraiment satisfaite de mon achat, je reviendrai certainement!"</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!---CONTACT-->
+<section style="margin-top: 20px;" id="contact" class="contact-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 contact-info">
+        <h2>Contactez-nous</h2>
+        <p>Nous serions ravis de répondre à toutes vos questions et demandes. N'hésitez pas à nous contacter via le formulaire ci-dessous ou par les informations suivantes :</p>
+        <ul>
+          <li><strong>Téléphone:</strong> +212 5 05 07 81 82</li>
+          <li><strong>Email:</strong>  Nomads@gmail.com</li>
+          <li><strong>Adresse:</strong> 185 Avenu Safi, Marrakech, MAROC</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <h2>Envoyez-nous un Message</h2>
+        <form action="submit_form.php" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nom Complet</label>
+            <input type="text" id="name" name="name" required placeholder="Votre Nom" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="email">Adresse Email</label>
+            <input type="email" id="email" name="email" required placeholder="Votre Email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Votre Message" class="form-control"></textarea>
+          </div>
+          <button type="submit" class="btn">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer id="footer">
+  <div class="footer-container">
+    <div class="row">
+    
+      <div class="col-md-4 footer-column">
+        <h5>A propos de nous</h5>
+        <p>Chez Nommads, nous croyons que chaque produit fait main raconte une histoire unique et que chaque création artisanale porte en elle l’essence du savoir-faire et de la tradition. Notre plateforme est conçue pour offrir un espace fluide et soutenant aux artisans et créateurs, afin qu’ils puissent présenter leurs œuvres exceptionnelles et atteindre une clientèle qui apprécie la beauté des produits faits main.</p>
+      </div>
+
+      <div class="col-md-2 footer-column">
+        <h5>Liens</h5>
+        <ul class="list-unstyled">
+          <li><a href="#footer">Contact</a></li>
+         <li><a href="catalogue.html">Catalogue des produits</a></li>
+          <li><a href="cart.html">cart</a></li>
+           <li><a href="Blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 footer-column">
+        <h5>Contact</h5>
+        <ul class="list-unstyled">
+          <li>Email: Nomads@gmail.com</li>
+          <li>Phone: +212 5 05 07 81 82</li>
+          <li>Address: 185 Avenu Safi, Marrakech, MAROC</li>
+        </ul>
+      </div>
+
+      
+      <div class="col-md-2 footer-column">
+        <h5>Suivez-nous</h5>
+        <div class="social-icons">
+          <a href="#" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+          <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
+          <a href="#" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+          <a href="#" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+        </div>
+      </div>
+      <div class="col-md-2 footer-column">
+        <h5>On accepte</h5>
+        <div class="social-icons">
+          <i class='bx bxl-visa' ></i>
+          <i class='bx bxl-mastercard' ></i>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="footer-bottom">
+      <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

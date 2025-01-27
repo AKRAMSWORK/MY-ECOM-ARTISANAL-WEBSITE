@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOMADS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="homepage.html">NOMADS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="homepage.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catalogue.html">Catalogue produits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html"><i class='bx bx-user'></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html"><i class='bx bx-cart'></i></a>
+                </li>
+               
+                <li class="nav-item">
+                    <form class="d-flex" action="/search" method="get">
+                        <input class="form-control me-2" type="search" placeholder="Rechercher..." aria-label="Search" name="query">
+                        <button class="btn btn-outline-dark" type="submit"><i class='bx bx-search' ></i></button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-5">
+  <i class='bx bxs-cart' style="font-size:xx-large;"></i>
+  <hr>
+  <div class="row row-col-sm-1 row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
+    <div class="col">
+      <div class="card">
+       <a href=""><img src="cuir7.jpg" class="card-img-top" alt="Product 7"></a> 
+        <div class="card-body">
+          <h5 class="card-title">OREILLER EN CUIR</h5>
+          <h6>400MAD</h6>
+          <a href="#" style="background-color: rgb(78, 64, 61); color: white;" class="btn ml-5">continuer mes achats</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+       <a href=""><img src="cuivre6.jpg" class="card-img-top" alt="Product 6"></a> 
+        <div class="card-body">
+          <h5 class="card-title">MOKHRA EN CUIVRE</h5>
+          <h6>1800 MAD</h6>
+            <a href="#" style="background-color: rgb(78, 64, 61); color: white;" class="btn ml-5">continuer mes achats</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+       <a href=""><img src="cuir9.jpg" class="card-img-top" alt="Product 8"></a> 
+        <div class="card-body">
+          <h5 class="card-title">SAC À DOS</h5>
+          <h6>400MAD</h6>
+          <a href="#" style="background-color: rgb(78, 64, 61); color: white;" class="btn ml-5">continuer mes achats</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+       <a href=""><img src="cuir10.JPG" class="card-img-top" alt="Product 9"></a> 
+        <div class="card-body">
+          <h5 class="card-title">POUF CUIRE NOIRE</h5>
+          <h6>600 MAD</h6>
+            <a href="#" style="background-color: rgb(78, 64, 61); color: white;" class="btn ml-5">continuer mes achats</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="col">
+      <div class="card">
+       <a href=""><img src="cuir8.jpg" class="card-img-top" alt="Product 10"></a> 
+        <div class="card-body">
+          <h5 class="card-title">PORTE-MONNAIE</h5>
+          <h6>1000MAD</h6>
+          <a href="#" style="background-color: rgb(78, 64, 61); color: white;" class="btn ml-5">continuer mes achats</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+       <a href=""><img src="pot1.jpg" class="card-img-top" alt="Product 1"></a> 
+        <div class="card-body">
+          <h5 class="card-title">ENSEMBLE BOLS</h5>
+          <h6>100 MAD</h6>
+          <a href="#" style="background-color: rgb(78, 64, 61); color: white;" class="btn ml-5">continuer mes achats</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <hr>
+<div style="padding: 20px 40px;"  class="CART">
+  <h4>TOTAL DU PANIER: <span style="color: rgb(35, 35, 127);">4300 MAD</span> </h4>
+  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <button style="background-color: rgb(78, 64, 61); color: white;" type="button" class="btn btn-outline">continuer mes achats</button>
+    <button style="background-color: rgb(78, 64, 61); color: white;" type="button" class="btn btn-outline">passer à la caisse</button> 
+  </div>
+</div>
+<hr>
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 contact-info">
+          <h2>Contactez-nous</h2>
+          <p>Nous serions ravis de répondre à toutes vos questions et demandes. N'hésitez pas à nous contacter via le formulaire ci-dessous ou par les informations suivantes :</p>
+          <ul>
+            <li><strong>Téléphone:</strong> +212 5 05 07 81 82</li>
+            <li><strong>Email:</strong>  Nomads@gmail.com</li>
+            <li><strong>Adresse:</strong> 185 Avenu Safi, Marrakech, MAROC</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <h2>Envoyez-nous un Message</h2>
+          <form action="submit_form.php" method="POST" class="contact-form">
+            <div class="form-group">
+              <label for="name">Nom Complet</label>
+              <input type="text" id="name" name="name" required placeholder="Votre Nom" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Adresse Email</label>
+              <input type="email" id="email" name="email" required placeholder="Votre Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Votre Message" class="form-control"></textarea>
+            </div>
+            <button type="submit" style="background-color: rgb(78, 64, 61); color: white;" class="btn">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+                <footer id="footer">
+                  <div class="footer-container">
+                    <div class="row">
+                    
+                      <div class="col-md-4 footer-column">
+                        <h5>A propos de nous</h5>
+                        <p>Chez Nommads, nous croyons que chaque produit fait main raconte une histoire unique et que chaque création artisanale porte en elle l’essence du savoir-faire et de la tradition. Notre plateforme est conçue pour offrir un espace fluide et soutenant aux artisans et créateurs, afin qu’ils puissent présenter leurs œuvres exceptionnelles et atteindre une clientèle qui apprécie la beauté des produits faits main.</p>
+                      </div>
+            
+                      <div class="col-md-2 footer-column">
+                        <h5>Liens</h5>
+                        <ul class="list-unstyled">
+                          <li><a href="#footer">Contact</a></li>
+                         <li><a href="catalogue.html">Catalogue des produits</a></li>
+                          <li><a href="cart.html">cart</a></li>
+                           <li><a href="Blog.html">Blog</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2 footer-column">
+                        <h5>Contact</h5>
+                        <ul class="list-unstyled">
+                          <li>Email: Nomads@gmail.com</li>
+                          <li>Phone: +212 5 05 07 81 82</li>
+                          <li>Address: 185 Avenu Safi, Marrakech, MAROC</li>
+                        </ul>
+                      </div>
+              
+                      
+                      <div class="col-md-2 footer-column">
+                        <h5>Suivez-nous</h5>
+                        <div class="social-icons">
+                          <a href="#" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+                          <a href="#" target="_blank"><i class='bx bxl-twitter'></i></a>
+                          <a href="#" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                          <a href="#" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                        </div>
+                      </div>
+                      <div class="col-md-2 footer-column">
+                        <h5>On accepte</h5>
+                        <div class="social-icons">
+                          <i class='bx bxl-visa' ></i>
+                          <i class='bx bxl-mastercard' ></i>
+                        </div>
+                      </div>
+                    </div>
+              
+                  
+                    <div class="footer-bottom">
+                      <p>&copy; 2024 Your Company. All rights reserved.</p>
+                    </div>
+                  </div>
+                </footer>
+          
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
